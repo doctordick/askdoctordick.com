@@ -1,16 +1,22 @@
 <html>
   <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     <title>Doctor Dick - free download</title>
-  </head>
-  <body>
     <style>
+      @import url('https://themes.googleusercontent.com/fonts/css?kit=I5iEdlySSZdl8NbVSMZmGc7GovBotyIC88tosNWOdfU');    
+      
       body {
         text-align: center;
-        margin-top: 15%;
+        margin-top: 7%;
+        background-image: url("lgbt_flag.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-attachment: fixed;
       }
 
       .header-logo {
-        width: 85px;
+        width: 130px;
         margin-right: 20px;
       }
 
@@ -19,17 +25,10 @@
         text-align: left;
       }
 
-      h1 {
-        /* Doctor Dick: */
-        font-family: HelveticaNeue-Bold;
-        font-size: 48px;
-        color: #262626;
-        line-height: 40px;
-      }
-
       h2 {
         /* I’m here to take care...: */
-        font-family: HelveticaNeue-Bold;
+        font-family: Raleway, HelveticaNeue-Bold;
+        font-style: italic;
         font-size: 30px;
         color: #262626;
         line-height: 0px;
@@ -55,27 +54,74 @@
         background-color: #fff400;
         cursor: pointer;
       }
+
+
+      .arrow_box {
+        padding: 50px;
+        width: 500px;
+        height: 420px;
+        margin: 0 auto;
+        position: relative;
+        background: #FFFFFF;
+        border: 6px solid #35a5c2;
+        border-radius: 30px;
+      }
+      .arrow_box:after, .arrow_box:before {
+        top: 100%;
+        left: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+      }
+
+      .arrow_box:after {
+        border-color: rgba(213, 213, 213, 0);
+        border-top-color: #FFFFFF;
+        border-width: 30px;
+        margin-left: -30px;
+      }
+      .arrow_box:before {
+        border-color: rgba(53, 165, 194, 0);
+        border-top-color: #35a5c2;
+        border-width: 38px;
+        margin-left: -38px;
+      }
     </style>
-    <img src="logo.png" title="Doctor Dick logo" class="header-logo" />
-    <div class="header-right-column">
-      <h1>Doctor Dick</h1>
-      <h2>I'm here to take care of your dick.</h2>
-    </div>
-    <button id="download-button" onclick="clickTheButton()">Download Now</button>
-    <div id="beta-signup" style="visibility: hidden;">
-      <p>
-        I'm not quite ready for you, let me know how I can reach you and I'll let you know when we can start.
-      </p>
-      <form action="https://docs.google.com/forms/d/e/1FAIpQLSc3X_i4v1lhoz3qkPgOUsW0nuNGILJbAsXCFvi_qJJsahkWiA/formResponse" target="_self" method="POST" id="mG61Hd">
-        <input type="text" placeholder="Enter your email" aria-describedby="i.desc.672073370 i.err.672073370" name="Doctor Dick signup" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
-        <input type="submit" />
-      </form>
+  </head>
+
+  <body>
+    <div id="background-image">
+
+      <div class="arrow_box">
+        <img src="logo.png" title="Doctor Dick logo" class="header-logo" />
+        <div class="header-right-column">
+          <div id="header-logo">
+              <p class="c9" style="margin: 0;color: #000000;font-size: 11pt;font-family: &quot;Arial&quot;;line-height: 1.0;text-align: center;"><span class="c2" style="font-size: 60pt;font-family: &quot;Raleway&quot;;color: #ff0000;">d</span><span class="c1" style="font-size: 60pt;font-family: &quot;Raleway&quot;;color: #e69138;">o</span><span class="c3" style="font-size: 60pt;font-family: &quot;Raleway&quot;;color: #f1c232;">c</span><span class="c6" style="font-size: 60pt;font-family: &quot;Raleway&quot;;color: #38761d;">t</span><span class="c8" style="font-size: 60pt;font-family: &quot;Raleway&quot;;color: #0000ff;">o</span><span class="c0" style="font-size: 60pt;font-family: &quot;Raleway&quot;;color: #ff00ff;">r</span><span class="c7" style="font-size: 60pt;font-family: &quot;Raleway&quot;;color: #666666;font-weight: 700;">Dick</span></p>
+              <p class="c4" style="margin: 0;color: #000000;font-size: 11pt;font-family: &quot;Arial&quot;;orphans: 2;widows: 2;height: 11pt;"><span></span></p>
+          </div>
+          <h2>I'm here to take care of your dick.</h2>
+        </div>
+        <button id="download-button" onclick="clickTheButton()">Download Now</button>
+        <div id="beta-signup" style="display: none;">
+          <p>
+            I'm not quite ready for you, let me know how I can reach you and I'll let you know when we can start.
+          </p>
+          <form action="https://docs.google.com/forms/d/e/1FAIpQLSc3X_i4v1lhoz3qkPgOUsW0nuNGILJbAsXCFvi_qJJsahkWiA/formResponse" target="_self" method="POST" id="mG61Hd">
+            <input type="text" placeholder="Enter your email" aria-describedby="i.desc.672073370 i.err.672073370" name="Doctor Dick signup" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
+            <input type="submit" />
+          </form>
+        </div>
+      </div>
+
     </div>
     <script>
       function clickTheButton() {
         // remove button, replace with text and form to add email
-        document.getElementById('download-button').style.visibility = 'hidden'
-        document.getElementById('beta-signup').style.visibility = 'visible'
+        document.getElementById('download-button').style.display = 'none'
+        document.getElementById('beta-signup').style.display = 'block'
       }
     </script>
   </body>
