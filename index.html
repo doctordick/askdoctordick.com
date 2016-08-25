@@ -8,6 +8,10 @@
         width: 120px;
       }
 
+      .header-right-column {
+        display: inline-block;
+      }
+
       h1 {
         /* Doctor Dick: */
         font-family: HelveticaNeue-Bold;
@@ -23,10 +27,26 @@
         color: #262626;
         line-height: 29px;
       }
+
+      #download-button {
+        display: block;
+        text-align: center;
+        border: 4px solid #262626;
+        border-radius: 8px;
+        background: none;
+        padding: 10px 40px;
+        /* Download Now: */
+        font-family: HelveticaNeue-Bold;
+        font-size: 24px;
+        color: #262626;
+        line-height: 29px;
+      }
     </style>
     <img src="logo.png" title="Doctor Dick logo" class="header-logo" />
-    <h1>Doctor Dick</h1>
-    <h2>I'm here to take care of your dick.</h2>
-    <button>Download Now</button>
+    <div class="header-right-column">
+      <h1>Doctor Dick</h1>
+      <h2>I'm here to take care of your dick.</h2>
+    </div>
+    <button id="download-button">Download Now</button>
   </body>
 </html>
