@@ -61,6 +61,22 @@
       <h1>Doctor Dick</h1>
       <h2>I'm here to take care of your dick.</h2>
     </div>
-    <button id="download-button">Download Now</button>
+    <button id="download-button" onclick="clickTheButton()">Download Now</button>
+    <div id="beta-signup" style="visibility: hidden;">
+      <p>
+        I'm not quite ready for you, let me know how I can reach you and I'll let you know when we can start.
+      </p>
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSc3X_i4v1lhoz3qkPgOUsW0nuNGILJbAsXCFvi_qJJsahkWiA/formResponse" target="_self" method="POST" id="mG61Hd">
+        <input type="text" placeholder="Enter your email" aria-describedby="i.desc.672073370 i.err.672073370" name="Doctor Dick signup" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
+        <input type="submit" />
+      </form>
+    </div>
+    <script>
+      function clickTheButton() {
+        // remove button, replace with text and form to add email
+        document.getElementById('download-button').style.visibility = 'hidden'
+        document.getElementById('beta-signup').style.visibility = 'visible'
+      }
+    </script>
   </body>
 </html>
